@@ -27,9 +27,9 @@ app.service('itunesService', function($http, $q){
 					Artist: data.artistName,
 					Song: data.trackName,
 					Collection: data.collectionName,
-      				CollectionPrice: data.collectionPrice,
-      				Play: data.previewUrl,
-      				Type: data.kind
+      		CollectionPrice: data.collectionPrice,
+      		Play: data.previewUrl,
+      		Type: data.kind
 				}
 			  songData.push(obj);
 			}
